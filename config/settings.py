@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-ywoe$$p&ec=oe71hgc6rg=)jgt_ube78$cjfy73ied*vtb+muc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost',
+                 'https://robofriends-api-1.onrender.com']
 
 
 # Application definition
